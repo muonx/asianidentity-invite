@@ -1,3 +1,18 @@
+How To Make Changes To hackogden.com
+------------
+
+1. Make sure NodeJS is installed on your machine: [https://nodejs.org/](https://nodejs.org/)
+2. Make sure git is installed on your machine: [https://git-scm.com/](https://git-scm.com/)
+3. In terminal navigate to the directory on your computer where you want to download the website files `cd path/to/directory`
+4. Run `git clone git@github.com:hackogden/hackogden.com.git`
+5. Navigate into the project directory: `cd hackogden.com`
+6. Run `npm install` to install site dependencies
+7. Run `npm start` to startup a node server on your machine.
+8. Preview the site on your local machine at: [http://localhost:3000](http://localhost:3000)
+9. Make changes to your heart's desire!
+10. When done commit your changes with git and watch the Heroku magic happen!
+
+
 Slack Invite Automation
 ------------
 
