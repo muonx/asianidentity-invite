@@ -1,101 +1,44 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
 
+	<title>Hack Ogden</title>
+
+	<meta name="description" content="Hack Ogden is a developer meetup at the Startup Ogden Building every Wednesday at noon.">
+	<meta name="keywords" content="hack,ogden,startup,developer">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="icon" type="image/x-icon" href="images/favicon.png">
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+  <link rel="apple-touch-icon-precomposed" href="images/favicon.png">
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+	<link rel="stylesheet" type="text/css" href="app.css">
 </head>
-
-
-
 <body>
 
-<header class="mainHeader">
-	<a href="/" title="Hack Ogden"><img src="images/logo.png" srcset="images/logo.png 1x, images/logo@2x.png 2x"></a>
+<header>
+	<a href="/" title="Hack Ogden"><img src="images/logo.png" class="logo" alt="Hack Ogden Logo"></a>
 </header>
 
+<h4 class="heading">We meetup at the Startup Ogden Building every Wednesday at noon.</h4>
+<h3 class="address">2314 Washington BLVD Ogden UT</h3>
 
-<p>We meetup at the Startup Ogden Building every Wednesday at noon.</p>
-
-<div class="shortHR"></div>
-
-<p>2414 Washington BLVD Ogden UT</p>
-
-<form id="joinform" class="slackForm" action="/invite" method="post">
-	<p>Sign up for our slack</p>
-  <input type="email" name="name" value="" placeholder="Randall@OnFleek.Com">
-  <input type="submit" name="name">
+<form action="/invite" method="post">
+	<div class="combined">
+		<label for="email">Sign up for our slack</label>
+  	<input type="email" id="email" name="name" placeholder="Enter your email">
+		<button type="submit">Sign up</button>
+	</div>
 </form>
 
+<ul class="footer">
+	<li><a href="https://github.com/hackogden">GitHub</a></li>
+	<li><a href="http://www.twitter.com/hackogden">Twitter</a></li>
+	<li><a href="http://www.meetup.com/HackOgden/">Meetup</a></li>
+</ul>
 
-<p>
-	<a href="https://github.com/hackogden">Github</a> | <a href="http://www.twitter.com/hackogden">Twitter</a> | <a href="http://www.meetup.com/HackOgden/">Meetup</a>
-</p>
-
-
-<script>
-
-</script>
-<style>
-
-@font-face {
-    font-family: 'proxima_nova_rgregular';
-    src: url('fonts/proximanova-regular-webfont.eot');
-    src: url('fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/proximanova-regular-webfont.woff2') format('woff2'),
-         url('fonts/proximanova-regular-webfont.woff') format('woff'),
-         url('proximanova-regular-webfont.ttf') format('truetype'),
-         url('fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'proxima_novasemibold';
-    src: url('fonts/proximanova-semibold-webfont.eot');
-    src: url('fonts/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/proximanova-semibold-webfont.woff2') format('woff2'),
-         url('fonts/proximanova-semibold-webfont.woff') format('woff'),
-         url('fonts/proximanova-semibold-webfont.ttf') format('truetype'),
-         url('fonts/proximanova-semibold-webfont.svg#proxima_novasemibold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-body{
-	background: #bababa url(images/bg.png) no-repeat center top;
-	color:white;
-	text-align: center;
-	font-size:16px;
-	font-family:proxima_nova_rgregular, sans-serif;
-}
-
-a{
-	color:white;
-}
-
-p{
-	padding:20px 0 50px;
-}
-
-.mainHeader{
-	padding:100px 0 0;
-	margin:0 0 50px;
-}
-
-.shortHR{
-	width:200px;
-	height:2px;
-	background:#ffffff;
-	margin:0 auto;
-}
-
-.slackForm{
-
-}
-
-</style>
 </body>
 </html>
