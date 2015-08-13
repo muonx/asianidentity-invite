@@ -9,12 +9,12 @@
 /* Global rules
    ----------------------------- */
 body {
-	background: url(images/bg.png) no-repeat;
+  background: url(images/bg.png) no-repeat;
   background-size: cover;
-	color: #FFFFFF;
-	text-align: center;
-	font-size: 16px;
-	font-family: 'proxima-nova', sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'proxima-nova', sans-serif;
 }
 
 header {
