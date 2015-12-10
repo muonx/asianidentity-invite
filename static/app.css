@@ -117,6 +117,7 @@ a:hover {
 
 .ul#menu li {
     display:inline;
+    text-transform: uppercase;
 }
 
 /* Font
