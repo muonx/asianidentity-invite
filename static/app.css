@@ -9,7 +9,7 @@
 /* Global rules
    ----------------------------- */
 body {
-  background: url(images/bg.png) no-repeat;
+  background: url(http://i.imgur.com/qhwr9Bu.jpg) no-repeat;
   background-size: cover;
   color: #FFFFFF;
   text-align: center;
@@ -22,8 +22,8 @@ header {
 }
 
 .logo {
-  width: 275px;
-  height: 142px;
+  width: 308px;
+  height: 308px;
 }
 
 .heading {
