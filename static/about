@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <title>Asian Identity</title>
+
+  <meta name="description" content="AsianIdentity is a Slack community for Asians male of female to congregreate and talk.  We are a community dedicated to change.">
+  <meta name="keywords" content="change,community,asianidentity,asian">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" type="image/x-icon" href="http://i.imgur.com/LKaAaTe.png">
+  <link rel="shortcut icon" type="image/x-icon" href="http://i.imgur.com/LKaAaTe.png">
+  <link rel="apple-touch-icon-precomposed" href="http://i.imgur.com/LKaAaTe.png">
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+
+<header>
+  <a href="/" title="AsianIdentity"><img src="http://i.imgur.com/GKWk5oL.png" class="logo" alt="AsianIdentity logo"></a>
+</header>
+
+<h4 class="heading">AsianIdentity is a Slack Chat for Asians, by Asians. An community for us. So what are you waiting for? Join our family!</h4>
+
+<div class="image">
+      <h4 class="heading">Brought to you by the people who are apart of</h4>
+      <a href="http://kulturemedia.org"><img src="http://www.kulturemedia.org/placehold/logo.png" height="90px" width="225px" /></a>
+</div>
+&nbsp;
+
+<form action="/invite" method="post">
+  <div class="combined">
+    <label for="email">Sign up for our slack</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email">
+    <button type="submit">Sign up</button>
+  </div>
+</form>
+
+<div id="header">
+<h1>Join us On Slack!</h1>
+<h4 class="heading">Chat about where to hang out, get news about the community, and make new friends. Powered by Slack so you can chat on the web and on your phone for free</h4>
+</div>
+
+&nbsp;
+
+<div style="text-align: center"><img src="http://i.imgur.com/kwjWhfi.png"/></div>
+
+&nbsp;
+<h2>General Chat</h2>
+<h4 class="heading">Chit chat with the whole community in <strong>#general</strong>.Greet new members, discuss news articles, or share videos you've seen.</h4>
+<h2>Channels</h2>
+<h4 class="heading">Talk with people in <strong>#dating</strong>, <strong>#serious</strong>, and <strong>#media</strong>. Alternatively , make your own channel and invite others!</h4>
+<h2>Private Group Chat</h2>
+<h4 class="heading">Just want to  talk to your friends? Make a private channel just for your friends you want to invite.</h4>
+
+
+<ul class="footer">
+  <li><a href="https://www.kulturemedia.org">Kulture</a></li>
+  <li><a href="http://www.twitter.com/kulturewatchdog">Twitter</a></li>
+  <li><a href="http://www.asianmasculinity.org">A & M</a></li>
+  <li><a href="http://www.reddit.com/r/aznidentity">AsianIdentity Subreddit</a></li>
+</ul>
+
+</body>
+</html>
