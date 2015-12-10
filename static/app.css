@@ -115,7 +115,7 @@ a:hover {
   vertical-align: middle;
 }
 
-.declarations li {
+.ul:menu li {
     display:inline;
     text-transform: uppercase;
 }
