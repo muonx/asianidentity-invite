@@ -115,6 +115,9 @@ a:hover {
   vertical-align: middle;
 }
 
+.ul#menu li {
+    display:inline;
+}
 
 /* Font
    ----------------------------- */
